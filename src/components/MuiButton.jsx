@@ -70,9 +70,9 @@ const MuiButton = () => {
         />
       </Button>
       <ButtonGroup variant='contained' aria-label='basic button'>
-        <Button>Left</Button>
-        <Button>Center</Button>
-        <Button>Right</Button>
+        <Button size='small'>Left</Button>
+        <Button size='medium' color='success'>Center</Button>
+        <Button size='large' color='secondary'>Right</Button>
       </ButtonGroup>
     </Stack>
 
