@@ -10,6 +10,7 @@ import MuiCard from './components/MuiCard'
 import MuiNavbar from './components/MuiNavbar'
 import MuiBreadcrumbs from './components/MuiBreadcrumbs'
 import MuiDrawer from './components/MuiDrawer'
+import MuiDialog from './components/MuiDialog'
 
 const App = () => {
   const[isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -23,9 +24,10 @@ const App = () => {
     {/* <MuiBoxs /> */}
     {/* <MuiGrids /> */}
     {/* <MuiCard /> */}
-    <MuiNavbar isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
+    <MuiNavbar  setIsDrawerOpen={setIsDrawerOpen} />
     <MuiBreadcrumbs />
     <MuiDrawer  isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen}/>
+    <MuiDialog />
     </>
   )
 }
