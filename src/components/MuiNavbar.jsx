@@ -14,10 +14,10 @@ const MuiNavbar = () => {
             </Stack>
             
             <Stack  direction="row" spacing={2}>
-                <Button variant='contained' >Home</Button>
-                <Button variant='contained'>Contact</Button>
-                <Button variant='contained'>About</Button>
-                <Button variant='contained'>Logout</Button>
+                <Button variant='contained'  color='secondary'>Home</Button>
+                <Button variant='contained' color='secondary'>Contact</Button>
+                <Button variant='contained' color='secondary'>About</Button>
+                <Button variant='contained' color='secondary'>Logout</Button>
             </Stack>
         </Toolbar>
     </AppBar>
