@@ -6,6 +6,7 @@ import MuiSelect from './components/MuiSelect'
 import MuiCheckbox from './components/MuiCheckbox'
 import MuiBoxs from './components/MuiBoxs'
 import MuiGrids from './components/MuiGrids'
+import MuiCard from './components/MuiCard'
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
     {/* <MuiTextfields /> */}
     {/* <MuiSelect /> */}
     {/* <MuiCheckbox /> */}
-    <MuiBoxs />
+    {/* <MuiBoxs /> */}
     {/* <MuiGrids /> */}
+    <MuiCard />
     </>
   )
 }
