@@ -26,7 +26,7 @@ const MuiDialog = () => {
                 </DialogContent>
                 <DialogActions>
                     <Button autoFocus onClick={() => setIsOpen(false)}>Cancel</Button>
-                    <Button onClick={() => setIsOpen(false)}>Submit</Button>
+                    <Button onClick={() => setIsOpen(!isOpen)}>Submit</Button>
                 </DialogActions>
             </Dialog>
         </>
