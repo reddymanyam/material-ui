@@ -14,8 +14,8 @@ const MuiDialog = () => {
     }
     return (
         <>
-            <Button onClick={() => { setIsOpen(true) }} variant='contained' color='secondary' sx={{ position: "absolute", bottom: "2%", right: "2%" }}>Open Dialog</Button>
-            <Dialog open={isOpen} onClose={() => setIsOpen(false)} PaperComponent={PaperComponent}>
+            <Button onClick={() => { setIsOpen(!isOpen) }} variant='contained' color='secondary' sx={{ position: "absolute", bottom: "2%", right: "2%" }}>Open Dialog</Button>
+            <Dialog open={isOpen} onClose={() => setIsOpen(isOpen)} PaperComponent={PaperComponent}>
                 <DialogTitle style={{cursor:"move"}} id="draggable-dialog-title">
                     Submit the test?
                 </DialogTitle>
