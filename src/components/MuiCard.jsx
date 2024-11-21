@@ -9,7 +9,6 @@ const MuiCard = () => {
         <Box sx={{ width: "100%", padding:{xs:"5px 10px", sm:"10px 15px", md:'15px 20px', lg:"20px 25px"}, boxSizing: 'border-box', overflowX: 'hidden'}} >
             <Grid container spacing={2} >
                 <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
-
                     <Paper elevation={5}>
                         <Card>
                             <CardMedia sx={{ height: 140 }}
